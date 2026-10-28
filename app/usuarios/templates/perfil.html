@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Verificación de Usuario</title>
+</head>
+<body>
+    <h1>Verificación Exitosa</h1>
+    <p>Bienvenido al sistema, <strong>{{ usuario }}</strong></p>
+
+    <!-- Enlace para pasar a la sección de productos -->
+    <a href="{{ url_for('productos.listar_productos') }}">Ver lista de productos</a>
+</body>
+</html>
